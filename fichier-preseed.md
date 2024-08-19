@@ -12,7 +12,7 @@ pas automatiquement. Pour pouvoir intégrer le fichier preseed dans l’image is
 suivre les étapes de la création d’une image ISO personnalisée dans la doc [Debian
 automatic Install](https://github.com/augustin840/preseed-debian/blob/main/modifier-iso.md) 
 ## Syntaxe du fichier preseed :
-Le fichier de pré-configuration est au format utilisé dans la commande debconf-set-selections. Le format général d’un fichier de pré-configuration est le suivant : ==<owner> <question name> <question type> <value>==
+Le fichier de pré-configuration est au format utilisé dans la commande debconf-set-selections. Le format général d’un fichier de pré-configuration est le suivant : **<owner> <question name> <question type> <value>**
 Quelques règles pour éditer le fichier de pré-configuration de manière correcte :
 - Ne mettre qu’un seul espace ou tabulation entre le type de question et la valeur, 
 autrement l’installeur prendra le second espace/tab comme valeur.
