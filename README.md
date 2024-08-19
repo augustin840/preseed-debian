@@ -98,4 +98,3 @@ booter dessus.
 3. Booter sur la clé usb contenant le nouvel ISO. Une fois dans le menu grub, 
 il faut seulement sélectionner l’option install et l’installation de debian se 
 fera automatiquement.
-Exemples de paramètres utils à utiliser dans les paramètres de boot.
